@@ -1,13 +1,47 @@
 :root {
-    --bg-color: #F3ECE2;
     --bg-color-dark: #212121;
-    --txt-color: #333333;
-    --txt-color-light: #f5f5f5;
-    --name-color: #ff4a86;
+
     --card: #ffecf4;
-    --card-dark: #a8a8a8;
-    --hover: #96d9d6;
-    --class-job: #16d2e9;
+    --card-dark: #b51a4d;
+
+    --txt-color: #333333;
+    --name-color: #ff4a86;
+    --txt-light: #ffffff;
+
+    --hover: #f8d2c5;
+    --hover-dark: #96d9d6;
+
+    --class-job: #ff6b37;
+    --class-job-dark: #16d2e9;
+}
+
+
+.dark-mode main {
+    background-color: var(--bg-color-dark);
+    color: #fff;
+}
+
+.dark-mode main .card-pokemon {
+    background-color: var(--card-dark);
+
+}
+
+.dark-mode .card-pokemon:hover {
+    background-color: var(--hover-dark);
+}
+
+.dark-mode .class-job {
+    background-color: var(--class-job-dark);
+}
+
+.dark-mode span {
+    color: #fff;
+}
+
+.dark-mode .img-button,
+.dark-mode .logo {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
 body {
@@ -126,8 +160,4 @@ main .card-pokemon .class-job {
 
 .class-job {
     background-color: var(--class-job);
-}
-
-.dark-mode {
-    color: var(--txt-color-light);
 }
