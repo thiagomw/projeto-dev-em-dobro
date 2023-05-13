@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragnarok - Semana do Zero ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="header-main">
+            <a href="#"><img src="./src/img/home.png" alt="Home" class="logo"></a>
+            <button id="dark-mode" onclick="darkMode()">
+                <img src="./src/img/night-mode.png" alt="Night Mode" class="img-button">
+            </button>
+        </header>
+        <ul class="pokedex">
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Lorde</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/img/lorde.png" alt="Lorde" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Transclasse 2-1</li>
+                </ul>
+                <p class="description">
+                    Os lordes se curvam diante da supremacia dos Lordes. Capazes de atingir valores superiores a 20000
+                    HP, eles são a força de invasão e ocupação definitiva. Seja servindo de escudo humano, seja causando
+                    danos altíssimos com seu Perfurar em Espiral, você será temido nos campos de batalha.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Shura</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/img/shura.png" alt="Shura" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe 3-2</li>
+                </ul>
+                <p class="description">
+                    De corpo e mente treinados, os Shuras são guerreiros das artes marciais. Seus poderes físicos
+                    ultrapassam os limites humanos, permitindo rápidos combos e a conjuração de esferas espirituais para
+                    diversos fins.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Caçador</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/img/caçador.png" alt="Caçador" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe 2-1</li>
+                </ul>
+                <p class="description">
+                    Caçadores são grandes conhecedores dos animais, a ponto de serem capazes de domesticar um Falcão
+                    para ajudá-los nas batalhas.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Sábio</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/img/sabio.png" alt="Sábio" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe 2-2</li>
+                </ul>
+                <p class="description">
+                    Sabendo que há mais para aprender com a magia do que explodir monstros com feitiços e correr quando
+                    o SP acabar, os Magos buscam o caminho dos estudos alternativos e do profundo conhecimento elemental
+                    para se tornarem Sábios.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Supe Aprendiz</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/img/super_aprendiz.png" alt="Super Aprendiz" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe 2</li>
+                </ul>
+                <p class="description">
+                    Enquanto alguns jogadores optam por evoluir constantemente seus personagens, almejando alcançar as
+                    classes 2-1 e 2-2, outros se recusam a desistir de sua inocência. Como um Super Aprendiz, você pode
+                    treinar até atingir o nível de classe 70, e aprender a maioria das habilidades da primeira classe.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Ferreiro</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/img/mestre_ferreiro.png" alt="Mestre Ferreiro" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Transclasse 2-1</li>
+                </ul>
+                <p class="description">
+                    Quando você atinge um entendimento imenso da arte de moldar o metal, o aço se torna uma coisa viva,
+                    maleável... e extremamente poderosa. Esse conhecimento corre em suas veias, e você pode usá-lo para
+                    criar a arma perfeita ou para destruí-las com um só golpe. Você é o senhor de todas as armas. E
+                    ninguém pode detê-lo!
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Desordeiro</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/img/desordeiro.png" alt="Desordeiro" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Transclasse 2-2</li>
+                </ul>
+                <p class="description"> Viver entre quatro paredes, seguindo ordens e vestindo uniformes? Isso é
+                    besteira. Liberdade é o que
+                    rege a vida. E é nisso que os Desordeiros se especializaram: liberdade. Se eles não quiserem, você
+                    não
+                    poderá nem feri-los. Pois você logo estará sem equipamento nenhum. E você nem perceberá quem
+                    removeu.</p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Esperitualista</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/img/espiritualista.png" alt="Espiritualista" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe Expandida 2</li>
+                </ul>
+                <p class="description">
+                    Diferentemente dos Mestres Taekwons, que optam por alinhar seu espírito com o mundo para despertar
+                    sua força interior, os Espiritualistas focam seus estudos na compreensão da alma e na invocação de
+                    espíritos ancestrais. Eles são magos capazes de invocar espíritos de poderosos guerreiros ancestrais
+                    e incorporá-los em si ou em seus companheiros.
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Ninja</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/img/ninja.png" alt="Ninja" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe Expandida 1</li>
+                </ul>
+                <p class="description">
+                    Baseados nos guerreiros das sombras do Japão Feudal, os Ninjas são habitantes da escuridão e adeptos
+                    às artes de atacar sem serem vistos. Eles utilizam sua rapidez e versatilidade como principal arma.
+                </p>
+            </li>
+            <li class="card-pokemon">
+                <div class="name">
+                    <span>Justiceiro</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/img/justiceiro.png" alt="Justiceiro" class="gif">
+
+                <ul class="type">
+                    <li class="class-job">Classe Expandida 1</li>
+                </ul>
+                <p class="description">
+                    Os Justiceiros são os heróis do velho oeste que ganharam esta reputação por serem muito talentosos
+                    com armas de fogo. Esta é a classe mais diferente de toda a história de Ragnarok Online. Os
+                    Justiceiros são os únicos que podem usar revólveres, espingardas e rifles, e suas builds são
+                    desenvolvidas de acordo com as armas que usam.
+                </p>
+            </li>
+        </ul>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
