@@ -18,30 +18,36 @@
 
 .dark-mode main {
     background-color: var(--bg-color-dark);
-    color: #fff;
+    transition: 0.5s ease-in-out;
 }
 
-.dark-mode main .card-pokemon {
+.dark-mode main .card-ragnarok {
     background-color: var(--card-dark);
+    transition: 0.5s ease-in-out;
 
 }
 
-.dark-mode .card-pokemon:hover {
+.dark-mode .card-ragnarok:hover {
     background-color: var(--hover-dark);
+    transition: 0.5s ease-in-out;
 }
 
 .dark-mode .class-job {
     background-color: var(--class-job-dark);
+    transition: 0.5s ease-in-out;
 }
 
-.dark-mode span {
+.dark-mode span,
+.dark-mode p {
     color: #fff;
+    transition: 0.5s ease-in-out;
 }
 
 .dark-mode .img-button,
 .dark-mode .logo {
     filter: invert(100%);
     -webkit-filter: invert(100%);
+    transition: 1s ease-in-out;
 }
 
 body {
@@ -68,7 +74,7 @@ header .img-button {
 
 header .logo:hover,
 header .img-button:hover,
-main .card-pokemon:hover {
+main .card-ragnarok:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
@@ -83,7 +89,7 @@ main {
 
 }
 
-main .pokedex {
+main .main-ragnarok {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -92,7 +98,7 @@ main .pokedex {
 
 }
 
-main .card-pokemon {
+main .card-ragnarok {
 
     display: flex;
     flex-direction: column;
@@ -102,20 +108,16 @@ main .card-pokemon {
     width: 200px;
     padding: 15px;
     border-radius: 15px;
-    transition: 0.2s ease-in-out;
+    transition: 0.50s ease-in-out;
     border: #ff4a86 1px solid;
 }
 
-main .card-pokemon:hover {
+main .card-ragnarok:hover {
 
     background-color: var(--hover);
 }
 
-.mode-escuro .card-pokemon {
-    background-color: var(--card-dark);
-}
-
-main .card-pokemon .name {
+main .card-ragnarok .name {
     display: flex;
     justify-content: space-between;
     border: 1px solid var(#333333);
@@ -125,24 +127,24 @@ main .card-pokemon .name {
     color: var(--name-color);
 }
 
-main .card-pokemon .name span {
+main .card-ragnarok .name span {
     padding: 5px;
     text-transform: uppercase;
     font-size: 17px;
 }
 
-main .card-pokemon .gif {
+main .card-ragnarok .gif {
     width: 302px;
     height: 205px;
 }
 
 
-main .card-pokemon .type {
+main .card-ragnarok .type {
     display: flex;
     gap: 15px;
 }
 
-main .card-pokemon .class-job {
+main .card-ragnarok .class-job {
 
     padding: 8px;
     color: #fff;
